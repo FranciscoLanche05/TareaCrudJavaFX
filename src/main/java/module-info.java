@@ -1,8 +1,10 @@
 module com.crudjavafx {
     requires javafx.controls;
     requires javafx.fxml;
+    requires java.sql;
 
-
-    opens com.crudjavafx to javafx.fxml;
-    exports com.crudjavafx;
+    exports com.crudjavafx.app;
+    opens com.crudjavafx.app to javafx.fxml;
+    opens com.crudjavafx.controller to javafx.fxml;
+    opens com.crudjavafx.modelo to javafx.base;
 }

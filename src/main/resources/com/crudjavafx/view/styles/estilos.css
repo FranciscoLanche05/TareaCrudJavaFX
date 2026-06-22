@@ -1,0 +1,70 @@
+.root {
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-background-color: #f4f6f9;
+}
+
+.header-pane {
+    -fx-background-color: #2c3e50;
+}
+
+.titulo-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.form-pane {
+    -fx-background-color: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 0);
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #34495e;
+    -fx-font-weight: bold;
+}
+
+.text-field, .date-picker, .combo-box, .text-area {
+    -fx-font-size: 13px;
+    -fx-background-radius: 4px;
+    -fx-border-radius: 4px;
+    -fx-border-color: #bdc3c7;
+}
+
+.text-field:focused, .text-area:focused {
+    -fx-border-color: #3498db;
+    -fx-border-width: 2px;
+}
+
+.button {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+    -fx-padding: 8px 15px;
+}
+
+.btn-guardar {
+    -fx-background-color: #27ae60;
+}
+.btn-guardar:hover { -fx-background-color: #2ecc71; }
+
+.btn-limpiar {
+    -fx-background-color: #f39c12;
+}
+.btn-limpiar:hover { -fx-background-color: #f1c40f; }
+
+.btn-eliminar {
+    -fx-background-color: #e74c3c;
+}
+.btn-eliminar:hover { -fx-background-color: #c0392b; }
+
+.table-view {
+    -fx-background-color: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 0);
+}
+
+.table-view .column-header {
+    -fx-background-color: #ecf0f1;
+}
